@@ -5,7 +5,16 @@ buildscript {
 }
 plugins {
   id 'org.roboscratch.robot' version '0.1.1'
+  id 'com.gradle.build-scan' version '2.2.1'
 }
+
+buildScan {
+    termsOfServiceUrl = 'https://gradle.com/terms-of-service'    
+    termsOfServiceAgree = 'yes'                                  
+
+    publishAlways()                                              
+}
+
 apply plugin: 'java'
 apply plugin: 'jacoco'
 apply plugin: 'checkstyle'
