@@ -179,7 +179,7 @@
         <module name="OperatorWrap">
             <property name="option" value="NL"/>
             <property name="tokens"
-             value="BAND, BOR, BSR, BXOR, DIV, EQUAL, E, LITERAL_INSTANCEOF, LOR,
+             value="BAND, BOR, BSR, BXOR, DIV, EQUAL, LITERAL_INSTANCEOF, LOR,
                     LT, MINUS, MOD, NOT_EQUAL, PLUS, QUESTION, SL, SR, STAR, METHOD_REF "/>
         </module>
 
